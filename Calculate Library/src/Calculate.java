@@ -44,6 +44,11 @@ public class Calculate {
 		answer = (number2*number2)-(4*number1*number3);
 		return answer;
 	}
-//a call to toImproperFrac, 
+//a call to toImproperFrac, converts mixed number into an improper frac
+//EDIT AND CHECK NEEDS WORK
+	public static String toImproperFrac(int number1, int number2, int number3) {
+		String answer;
+		answer = (number1*number3);
+	}
 }
 
