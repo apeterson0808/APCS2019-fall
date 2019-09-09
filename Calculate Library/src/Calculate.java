@@ -2,6 +2,7 @@
 //August 29, 2019
 //Library of math functions
 public class Calculate {
+//Part 1
 //a call to square, returns the square of the value passed
 	public static int square(int number) {
 		int answer;
@@ -46,9 +47,13 @@ public class Calculate {
 	}
 //a call to toImproperFrac, converts mixed number into an improper frac
 //EDIT AND CHECK NEEDS WORK
-	public static String toImproperFrac(int number1, int number2, int number3) {
-		String answer;
-		answer = (number1*number3);
+	public static void main (String []args) toImproperFrac(String number1, String number2, String number3) {
+		System.out.println(number1*number3);
 	}
+
+
+//Part 2 
+//a call to isDivisibleBy, 
+	public static 
 }
 
