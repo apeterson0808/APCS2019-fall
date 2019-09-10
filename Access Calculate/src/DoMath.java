@@ -10,6 +10,10 @@ public class DoMath {
 	    System.out.println(Calculate.toDegrees(1));
 	    System.out.println(Calculate.toRaidian(1));
 	    System.out.println(Calculate.discriminant(6,10,-1));
+	    System.out.println(Calculate.toDivisibleBy(24,5));
+	    
+	    System.out.println(Calculate.max(1, 2));
+	    System.out.println(Calculate.min(3,2));
 	}
 
 }

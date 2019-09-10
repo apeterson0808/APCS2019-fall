@@ -46,14 +46,47 @@ public class Calculate {
 		return answer;
 	}
 //a call to toImproperFrac, converts mixed number into an improper frac
-//EDIT AND CHECK NEEDS WORK
-	public static void main (String []args) toImproperFrac(String number1, String number2, String number3) {
-		System.out.println(number1*number3);
+//NEEDS WORK!!
+	public static void toImproperFrac () {
+		 
 	}
 
 
 //Part 2 
-//a call to isDivisibleBy, 
-	public static 
-}
+//a call to isDivisibleBy, determine whether or not one integer is evenly divisible by another
+	public static boolean toDivisibleBy (int a,int b){
+		boolean divis = false;
+		if(a%b==0) {
+			divis=true;
+		}
+		return divis;}
+		
+//a call to absValue, returns the abolute number of the values passed
+		public static double absValue (double a){
+			
+		}
+//a call to max, returns the larger of two values passed, overload
+		public static double max (double a, double b) {
+			if(a>b) {
+				return a;
+			}else { 
+				return b;
+				}
+			}
+//a call to max, returns the larger of 3 values passed, overload
+		public static double max (double c, double d, double e) {
+			
+			}
+//a call to min, returns smaller of two values passed
+		public static int min (int a, int b) {
+			if(a<b) {
+				return a;
+			}else {
+				return b; 
+			}
+		}
+//a call to round2
+	}
+
+	
 
