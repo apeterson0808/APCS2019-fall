@@ -47,8 +47,9 @@ public class Calculate {
 	}
 //a call to toImproperFrac, converts mixed number into an improper frac
 //NEEDS WORK!!
-	public static void toImproperFrac () {
-		 
+	public static void toImproperFrac (int whole, int numer, int denom) { 
+		int answer = (denom*whole)+numer;
+		String i = String.valueOf(answer);
 	}
 
 
