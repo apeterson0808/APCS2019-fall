@@ -46,12 +46,19 @@ public class Calculate {
 		return answer;
 	}
 //a call to toImproperFrac, converts mixed number into an improper frac
-//NEEDS WORK!!
 	public static void toImproperFrac (int whole, int numer, int denom) { 
 		int answer = (denom*whole)+numer;
-		String i = String.valueOf(answer);
+		System.out.println(answer"//"denom);
 	}
-
+//a call toMixedNum, converts a improper frac into a mixed number
+	public static void toMixedNum (int numer, int denom) {
+		int answer = (numer/denom);
+		System.out.println(answer%denom);
+	}
+//a call to foil, converts binomial multiplication of the form (ax+b)(cx+d) into a quadratic equation
+	public static void foil (int a, int b, int c, int d){
+		
+	}
 
 //Part 2 
 //a call to isDivisibleBy, determine whether or not one integer is evenly divisible by another
@@ -67,7 +74,7 @@ public class Calculate {
 			
 		}
 //a call to max, returns the larger of two values passed, overload
-		public static double max (double a, double b) {
+	public static double max (double a, double b) {
 			if(a>b) {
 				return a;
 			}else { 
@@ -75,11 +82,11 @@ public class Calculate {
 				}
 			}
 //a call to max, returns the larger of 3 values passed, overload
-		public static double max (double c, double d, double e) {
+	public static double max (double c, double d, double e) {
 			
 			}
 //a call to min, returns smaller of two values passed
-		public static int min (int a, int b) {
+	public static int min (int a, int b) {
 			if(a<b) {
 				return a;
 			}else {
@@ -88,6 +95,9 @@ public class Calculate {
 		}
 //a call to round2
 	}
+
+//Part 3
+//a call to exponent, raises value of a positive integer power
 
 	
 
