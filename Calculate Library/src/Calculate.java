@@ -48,7 +48,7 @@ public class Calculate {
 //a call to toImproperFrac, converts mixed number into an improper frac
 	public static void toImproperFrac (int whole, int numer, int denom) { 
 		int answer = (denom*whole)+numer;
-		System.out.println(answer"/"denom);
+		System.out.println(answer"//"denom);
 	}
 //a call toMixedNum, converts a improper frac into a mixed number
 	public static void toMixedNum (int numer, int denom) {
@@ -57,7 +57,7 @@ public class Calculate {
 	}
 //a call to foil, converts binomial multiplication of the form (ax+b)(cx+d) into a quadratic equation
 	public static void foil (int a, int b, int c, int d) {
-		
+		(a*c)(a*d)(b*c)(b*d)
 	}
 
 //Part 2 
@@ -70,25 +70,40 @@ public class Calculate {
 		return divis;}
 		
 //a call to absValue, returns the abolute number of the values passed
-		public static double absValue (double a) {
-			if(a) {
+	public static double absValue (double a) {
+		if(a>0) {
+			return (a*-1);
+		}else {
+			return a;
 			
 		}
 //a call to max, returns the larger of two values passed, overload
 	public static double max (double a, double b) {
-			if(a>b) {
+		if(a>b) {
 				return a;
 			}else { 
 				return b;
 				}
 			}
 //a call to max, returns the larger of 3 values passed, overload
-	public static double max (double c, double d, double e) {
-			
+	public static double max (double a, double b, double c) {
+		if(a>b)	{
+			if(a>c) {
+				return a;
+			if (b>a) {
+				if(b>c) {
+					return b;
+				}else {
+					return c;
+				}
+				}
 			}
+			}
+		}
+	}
 //a call to min, returns smaller of two values passed
 	public static int min (int a, int b) {
-			if(a<b) {
+		if(a<b) {
 				return a;
 			}else {
 				return b; 
@@ -96,13 +111,44 @@ public class Calculate {
 		}
 //a call to round2, rounds variable correctly to two decimal places
 	public static double round2 (double a) {
-		(a*100);
+		double answer;
+		answer = ((a*100)+0.5);
+		return (answer%100);
 	}
 }
 	
 
 //Part 3
 //a call to exponent, raises value of a positive integer power
+	public static double exponent (int a, double b) {
 		
+	}
+//a call to factorial, returns the factorial of the value passed
+	public static int factorial (int a) {
+		while()
+	}
+//a call to isPrime, determines wether or not an integer is prime
+	public static boolean isPrime (int a) {
+		
+	}
+//a call to gcf, finds the greatest common factor of two integers
+	public static int gcf (int a, int b) {
+		while(a%b==0) {
+		}
+			
+	}
+//a call to sqrt, returns the approximation of the square root of the value passed rounded to two decimals places
+	public static double sqrt (double a) {
+		while(a/a==0) {
+			
+		}
+	}
+	
+//Part 4
+//a call to quadForm, uses the coefficients of a quadratic formula in standard form and uses the quad form to approximate the real roots
+	public static void quadForm () {
+		
+	}
+}
 	
 

@@ -17,6 +17,7 @@ public class DoMath {
 	    
 	    System.out.println(Calculate.max(1, 2));
 	    System.out.println(Calculate.min(3,2));
+	    System.out.println(Calculate.round2(5.1293));
 	}
 
 }
