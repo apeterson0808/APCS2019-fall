@@ -16,7 +16,7 @@ public class Hourglass {
 			}
 		}
 	System.out.print ("\\");
-	//make below method
+	//make below method pls
 	printColons(-2*row+10);
 	
 	System.out.println("/");
