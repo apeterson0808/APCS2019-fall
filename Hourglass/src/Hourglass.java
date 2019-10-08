@@ -2,7 +2,7 @@
 //October 8, 2019
 //Prints out hourglass, can change size of hourglass
 public class Hourglass {
-	public static void top(String[] args) {
+	public static void main(String[] args){
 	System.out.print("|");
 	for (int i=0; i<10; i++) {
 		System.out.print("\"");
