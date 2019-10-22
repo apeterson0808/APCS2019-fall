@@ -1,13 +1,14 @@
 //Alice Peterson
-//October 22,2019
+//October 22, 2019
 //Split String project
-//import java.util.*;
+import java.util.*;
 
 public class Split {
 
 	public static void main(String[] args) {
+		String[] = split();
 		"I reallyreally likeapples".split("really");
-		System.out.println(array);
+		System.out.println();
 // Your task Part 0
 
 //String.split();
