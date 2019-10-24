@@ -5,6 +5,7 @@ import java.util.*;
 
 public class Split {
 
+//this method splits strings at specific points that can be specified
 	public static void main(String[] args) {
 		String[] = split();
 		"I reallyreally likeapples".split("really");
