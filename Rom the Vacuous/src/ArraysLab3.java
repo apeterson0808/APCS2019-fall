@@ -20,7 +20,7 @@ a1
  */
 
 	}
-	// Write a method sum that accepts two arrays of integers arr1 and arr2 and returns an array of integers, 
+	//Write a method sum that accepts two arrays of integers arr1 and arr2 and returns an array of integers, 
 	//in which every element is the sum of the elements at that index for the arrays arr1 and arr2. 
 	//You can assume arrays arr1 and arr2 have at least one element each and are the same length.
 	public static int[] sum(int[] arr1, int[] arr2) {
@@ -30,7 +30,7 @@ a1
 	}
 	
 	//Write a method append that accepts an array of integers arr of length n and an integer num
-	// and returns an array of integers of length n+1 that consists of the elements of arr with num appended to the end. 
+	//and returns an array of integers of length n+1 that consists of the elements of arr with num appended to the end. 
 	//You can assume array arr has at least one element.
 	public static int[] append(int[] arr, int num) {
 	
