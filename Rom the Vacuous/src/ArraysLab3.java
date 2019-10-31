@@ -1,4 +1,3 @@
-
 public class ArraysLab3 {
 
 	public static void main(String[] args) {

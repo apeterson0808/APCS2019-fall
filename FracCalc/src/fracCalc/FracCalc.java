@@ -16,10 +16,12 @@ public class FracCalc {
     //        
     // The function should return the result of the fraction after it has been calculated
     //      e.g. return ==> "1_1/4"
+
     public static String produceAnswer(String input)
     { 
-        // TODO: Implement this function to produce the solution to the input
-        
+    	Scanner produceAnswer = new Scanner(System.in);
+        String theInput = produceAnswer.next();
+        String frac[] = theInput.split(" ");
         return "";
     }
 
