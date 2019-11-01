@@ -1,5 +1,5 @@
 package fracCalc;
-
+import java.util.*;
 public class FracCalc {
 
     public static void main(String[] args) 
@@ -21,8 +21,9 @@ public class FracCalc {
     { 
     	Scanner produceAnswer = new Scanner(System.in);
         String theInput = produceAnswer.next();
-        String frac[] = theInput.split(" ");
-        return "";
+        if 
+        String frac = theInput.split(" ");
+        return frac;
     }
 
     // TODO: Fill in the space below with any helper methods that you think you will need
