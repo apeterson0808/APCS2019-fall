@@ -1,3 +1,5 @@
+//Alice Peterson
+//October 
 package fracCalc;
 import java.util.*;
 public class FracCalc {
@@ -21,7 +23,6 @@ public class FracCalc {
     { 
     	Scanner produceAnswer = new Scanner(System.in);
         String theInput = produceAnswer.next();
-        if 
         String frac = theInput.split(" ");
         return frac;
     }
