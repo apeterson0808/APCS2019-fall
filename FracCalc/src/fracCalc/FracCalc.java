@@ -10,7 +10,7 @@ public class FracCalc {
         // TODO: Read the input from the user and call produceAnswer with an equation
       	Scanner input = new Scanner(System.in);
         String expression= input.nextLine();
-        System.out.println(produceAnswer(expression)); 
+        System.out.println(produceAnswer(expression));
     }
     
     // ** IMPORTANT ** DO NOT DELETE THIS FUNCTION.  This function will be used to test your code
