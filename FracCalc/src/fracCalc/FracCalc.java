@@ -34,7 +34,7 @@ public class FracCalc {
     	
     	//Splitting whole expression to only second value
     	String[] splitEx = input.split(" ");
-    	//Splitting if mixed number
+    	//Splitting if mixed number7	
     	if(splitEx[2].contains("_")) {
     		String[] splitVal2 = splitEx[2].split("_");
     		String[] splitFrac = splitVal2[1].split("/");
