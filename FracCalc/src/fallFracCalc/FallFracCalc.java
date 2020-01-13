@@ -1,9 +1,9 @@
 //Alice Peterson
 //October 28, 2019
 //Fractional Calculator
-package fracCalc;
+package fallFracCalc;
 import java.util.*;
-public class FracCalc {
+public class FallFracCalc {
 
     public static void main(String[] args) 
     {
